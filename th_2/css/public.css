@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    background-color: #42733e;
+}
+#container{
+    width: 1000px;
+    margin: 50px auto;
+}
+#canvas{
+    margin-left: 10px;
+    float: left;
+}

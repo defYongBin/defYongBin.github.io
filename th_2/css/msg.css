@@ -1,0 +1,80 @@
+#msg{
+    position: relative;
+    float: left;
+    margin-left: 50px;
+    width: 300px;
+    height: 640px;
+}
+#current{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    font-size: 30px;
+    transform: translateX(-50%);
+}
+#current p{
+    text-align: center;
+}
+#current span{
+    transition: all 1.2s;
+    vertical-align: middle;
+}
+.black-now .black,
+.white-now .white{
+    font-size: 50px;
+    color: #00FFFF;
+}
+.black-now .white,
+.white-now .black{
+    font-size: 10px;
+    color: black;
+}
+
+#winMsg{
+    position: absolute;
+    top: 28%;
+    width: 100%;
+}
+#winMsg p{
+    text-align: center;
+    font-size: 20px;
+}
+
+#viewLast{
+    position: absolute;
+    width: 50%;
+    height: 30px;
+    top: 45%;
+    left: 50%;
+    border: 1px #666 solid;
+    transform: translateX(-50%);
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    background-color: white;
+}
+#viewLast:hover{
+    background-color: #89b7b8;
+}
+
+#button{
+    position: absolute;
+    width: 100%;
+    top: 55%;
+    overflow: hidden;
+}
+#button button{
+    margin-left: 10%;
+    width: 35%;
+    height: 30px;
+    font-size: 20px;
+}
+
+#log{
+    position: absolute;
+    top: 65%;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    color: #00FFFF;
+}

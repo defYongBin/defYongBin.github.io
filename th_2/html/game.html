@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<title>五子棋</title>
+	<link rel = "stylesheet" href = "../css/public.css">
+	<link rel = "stylesheet" href = "../css/msg.css">
+	<script src="../js/util.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="canvas"></div>
+		<div id="msg">
+			<div id="current" class="black-now">
+				<p>轮到</p><p><span class="black">黑</span>/<span class="white">白</span></p>
+			</div>
+			<div id="winMsg"><p>黑方:胜场、胜率</p><p>白方:胜场、胜率</p></div>
+			<div id="viewLast">查看上一棋</div>
+			<div id="button">
+				<button id="back">悔棋</button>
+				<button id="loser">认输</button>
+			</div>
+			<div id="log">play</div>
+		</div>
+	</div>
+</body>
+<script src="../js/game.js"></script>
+<script src="../js/msg.js"></script>
+</html>
